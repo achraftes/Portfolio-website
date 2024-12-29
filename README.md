@@ -1,15 +1,15 @@
 # Portfolio  
 
 ## Description  
-Un site web de portfolio développé avec **React**, permettant de présenter mes compétences, mes projets, et mes services professionnels.  
+A portfolio website developed with **React**, showcasing my skills, projects, and professional services.  
 
 ## Features  
-- **Page Home** : Introduction rapide avec une présentation de mon profil.  
-- **Page About** : Informations personnelles et parcours professionnel.  
-- **Page Skills** : Liste des compétences techniques sous forme visuelle.  
-- **Page Services** : Description des services que je propose.  
-- **Page Portfolio** : Présentation de mes projets avec des détails et des liens externes.  
-- **Page Contact** : Formulaire pour permettre aux visiteurs de me contacter.  
+- **Home Page**: Quick introduction with a brief profile presentation.  
+- **About Page**: Personal information and professional background.  
+- **Skills Page**: A visual list of technical skills.  
+- **Services Page**: Description of the services I offer.  
+- **Portfolio Page**: Display of my projects with details and external links.  
+- **Contact Page**: A form for visitors to get in touch with me.  
 
 ## Tech Stack  
 - React  
@@ -19,7 +19,10 @@ Un site web de portfolio développé avec **React**, permettant de présenter me
 
 ### Setup  
 #### Prerequisites  
-- Node.js (version 14 ou supérieure)  
-- npm installé  
+- Node.js 
+- npm installed
+- Visual Studio 2022
+- Visual Studio 2022
+
 
 
