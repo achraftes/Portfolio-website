@@ -46,7 +46,7 @@ const ScrollDown = () => {
                   
                 ></path>
               </svg>
-              <spam className="home__scroll-name">Scroll Down</spam>
+              <span className="home__scroll-name">Scroll Down</span>
               <i className="uil uil-arrow-down home__scroll-arrow"></i>
 
 
