@@ -16,7 +16,7 @@ const Portfolio = () => {
     4: "https://github.com/YourUsername/website-management",
     5: "https://github.com/YourUsername/jwt-project",
     6: "https://github.com/YourUsername/autodata-manager",
-    7: "https://github.com/YourUsername/ecomagentmanager-app"
+    7: "https://github.com/achraftes/EcomAgentManager-APP"
   };
 
   return (
