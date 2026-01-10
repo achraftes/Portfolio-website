@@ -44,6 +44,11 @@
 .nav__toggle {
     display: none;
 }
+ .nav__logo-img {
+  width: 100px;      /* ajuste selon ton design */
+  height: auto;
+  object-fit: contain;
+}
 
 /* Active link*/
 .active-link,
