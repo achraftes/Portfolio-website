@@ -6,13 +6,13 @@ function Info() {
          <div className="about__box">
          <i className='bx bx-award about__icon'></i>
             <h3 className="about__title">Experience</h3>
-            <span className="about__subtitle">4 Month Internship</span>
+            <span className="about__subtitle">5 Month Internship</span>
          </div>
 
          <div className="about__box">
          <i className='bx bx-briefcase-alt about__icon' ></i>
             <h3 className="about__title">Completed</h3>
-            <span className="about__subtitle">18 + Projects</span>
+            <span className="about__subtitle">20 + Projects</span>
          </div>
 
          <div className="about__box">
