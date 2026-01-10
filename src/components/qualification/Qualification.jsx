@@ -100,28 +100,12 @@ function Qualification() {
                 : "qualification__content"
             }
           >
-            {/* Full Stack EF2C en haut */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Full Stack Développeur</h3>
                 <span className="qualification__subtitle">EF2C Consulting</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2025 - 2025
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">PHP Web Development</h3>
-                <span className="qualification__subtitle">Baaziz Technologie</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2024 - 2024
                 </div>
               </div>
 
@@ -140,11 +124,27 @@ function Qualification() {
               </div>
 
               <div>
+                <h3 className="qualification__title">PHP Web Development</h3>
+                <span className="qualification__subtitle">Baaziz Technologie</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>2024 - 2024
+                </div>
+              </div>
+            </div>
+
+            {/* Nouveau bloc Full Stack EF2C */}
+            <div className="qualification__data">
+              <div>
                 <h3 className="qualification__title">Frontend Development</h3>
                 <span className="qualification__subtitle">Baaziz Technologie</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2023 - 2023
                 </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
