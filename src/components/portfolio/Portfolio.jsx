@@ -33,7 +33,7 @@ const Portfolio = () => {
                 className="uil uil-times portfolio__modal-close"
               ></i>
 
-              <h3 className="portfolio__modal-title">E-commerce site </h3>
+              <h3 className="portfolio__modal-title">E-commerce site E-commerce site </h3>
               <p className="portfolio__modal-description">
                  This project is an online sales platform including a home page,
                   a contact page, a product page, and a product detail page. 
