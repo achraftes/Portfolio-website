@@ -25,7 +25,7 @@ const Header = () => {
         {/* ===== LOGO IMAGE ===== */}
         <a href="#home" className="nav__logo">
           {/* <img src={Logo} alt="Achraf Logo" className="nav__logo-img" /> */}
-          CHIKRABANE
+          CHIKRABANE ACHRAF
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
