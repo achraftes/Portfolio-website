@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
-import Logo from "../../assets/Achraf.png"; // ajuste le chemin si besoin
+import Logo from "../../assets/Achraf.png"; // Décommente si tu veux l'image
 
 const Header = () => {
   /* ======== Change Background Header ======== */
@@ -22,12 +22,14 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        {/* ===== LOGO IMAGE ===== */}
+        {/* ===== LOGO ===== */}
         <a href="#home" className="nav__logo">
+          {/* Option image : décommente ci-dessous */}
           {/* <img src={Logo} alt="Achraf Logo" className="nav__logo-img" /> */}
           A-Chkr
         </a>
 
+        {/* ===== MENU ===== */}
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -91,12 +93,10 @@ const Header = () => {
             </li>
           </ul>
 
-          <i
-            className="uil uil-times nav__close"
-            onClick={() => showMenu(false)}
-          ></i>
+          <i className="uil uil-times nav__close" onClick={() => showMenu(false)}></i>
         </div>
 
+        {/* Toggle Menu Button */}
         <div className="nav__toggle" onClick={() => showMenu(true)}>
           <i className="uil uil-apps"></i>
         </div>
