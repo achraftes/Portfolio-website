@@ -124,7 +124,7 @@ const Portfolio = () => {
           <div className={toggleState === 4 ? "portfolio__modal active-modal" : "portfolio__modal"}>
             <div className="portfolio__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
-              <h3 className="portfolio__modal-title">Website for Business Management</h3>
+              <h3 className="portfolio__modal-title">EcomAgentManager CRM</h3>
               <p className="portfolio__modal-description">
                 Full-Stack website with Laravel for sales, inventory, and reporting. SaaS-ready.
               </p>
