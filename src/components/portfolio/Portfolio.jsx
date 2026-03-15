@@ -126,7 +126,12 @@ const Portfolio = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
               <h3 className="portfolio__modal-title">EcomAgentManager CRM</h3>
               <p className="portfolio__modal-description">
-                Full-Stack website with Laravel for sales, inventory, and reporting. SaaS-ready.
+                 E-commerce CRM developed with Laravel, TailwindCSS and MySQL.
+                 The platform automatically assigns leads to agents and sends
+                 real-time notifications to users. It includes an advanced
+                 analytics dashboard displaying sellers' website performance,
+                 conversion rates and key business KPIs to support fast and
+                 effective decision making.
               </p>
             </div>
           </div>
