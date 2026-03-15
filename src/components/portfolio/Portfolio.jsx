@@ -156,7 +156,7 @@ const Portfolio = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
               <h3 className="portfolio__modal-title">NodeJS-MongoDB-Order-Management</h3>
               <p className="portfolio__modal-description">
-                Node.js & MongoDB app with JWT authentication, REST APIs and Postman testing.
+                A Full-Stack app using Node.js and MongoDB for product and order management. Features include JWT-based user authentication, REST APIs with Express.js, and robust Postman-tested functionality. Users can register, log in, and manage products/orders securely. Ideal for inventory or product management platforms.
               </p>
             </div>
           </div>
