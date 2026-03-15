@@ -111,7 +111,7 @@ const Portfolio = () => {
         <div className="portfolio__content">
           <div className="portfolio__data">
             <i className="bx bxs-folder-open portfolio__icon"></i>
-            <h3 className="portfolio__title">Website Management</h3>
+            <h3 className="portfolio__title">EcomAgentManager APP</h3>
             <span className="portfolio__button" onClick={() => toggleTab(4)}>
               View More <i className="uil uil-arrow-right portfolio__button-icon"></i>
             </span>
