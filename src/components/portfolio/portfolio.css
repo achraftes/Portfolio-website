@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
-    column-gap: 1.1rem;
+    gap: 1.1rem;
 }
 
 /* Card */
@@ -81,30 +81,46 @@
     left: 0;
     right: 0;
     bottom: 0;
+
     background: rgba(0,0,0,0.5);
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+
+    z-index: 1000; /* important */
 }
 
+/* Modal active */
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal content */
 .portfolio__modal-content {
     width: 500px;
     background: white;
     padding: 2.5rem;
     border-radius: 1rem;
+
+    position: relative; /* FIX IMPORTANT */
 }
 
+/* Close button */
 .portfolio__modal-close {
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 1rem;
+    right: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
+/* Modal title */
 .portfolio__modal-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -112,18 +128,15 @@
     text-align: center;
 }
 
+/* Modal description */
 .portfolio__modal-description {
     font-size: var(--small-font-size);
     margin-top: 1rem;
     text-align: left;
 }
 
-.active-modal {
-    opacity: 1;
-    visibility: visible;
-}
-
 /* Responsive */
+
 @media screen and (max-width: 992px) {
     .portfolio__container {
         grid-template-columns: repeat(3, 230px);
@@ -134,26 +147,33 @@
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .portfolio__content {
         padding: 1.5rem;
     }
+
     .portfolio__icon {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 576px) {
+
     .portfolio__modal-content {
         width: 90%;
         padding: 2rem;
     }
+
     .portfolio__modal-description {
         padding: 1rem;
     }
+
 }
 
 @media screen and (max-width: 350px) {
+
     .portfolio__container {
         grid-template-columns: 1fr;
     }
+
 }
