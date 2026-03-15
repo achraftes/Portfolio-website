@@ -172,7 +172,7 @@ const Portfolio = () => {
             </span>
           </div>
           <div className="portfolio__footer">
-            <a href="https://github.com/yourusername/python-autodata" target="_blank" rel="noopener noreferrer" className="portfolio__github">
+            <a href="https://github.com/achraftes/AutoData-Manager" target="_blank" rel="noopener noreferrer" className="portfolio__github">
               <i className="bx bxl-github"></i>
             </a>
           </div>
@@ -181,7 +181,7 @@ const Portfolio = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
               <h3 className="portfolio__modal-title">AutoData Manager</h3>
               <p className="portfolio__modal-description">
-                Python & Tkinter app to manage vehicle data locally with an intuitive GUI.
+                A Python system with a Tkinter interface for managing vehicle information, including make, model, year, mileage, and color. Data is stored in a local file, offering centralized management without an external database. The intuitive interface ensures quick, efficient data entry, making it ideal for simple record-keeping and easy user access.
               </p>
             </div>
           </div>
