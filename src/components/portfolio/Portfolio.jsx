@@ -70,29 +70,42 @@ const Portfolio = () => {
         </div>
 
         {/* Project 3 */}
-        <div className="portfolio__content">
-          <div className="portfolio__data">
-            <i className="bx bxs-folder-open portfolio__icon"></i>
-            <h3 className="portfolio__title">To-Do List App</h3>
-            <span className="portfolio__button" onClick={() => toggleTab(3)}>
-              View More <i className="uil uil-arrow-right portfolio__button-icon"></i>
-            </span>
-          </div>
-          <div className="portfolio__footer">
-            <a href="https://github.com/yourusername/todo-app" target="_blank" rel="noopener noreferrer" className="portfolio__github">
-              <i className="bx bxl-github"></i>
-            </a>
-          </div>
-          <div className={toggleState === 3 ? "portfolio__modal active-modal" : "portfolio__modal"}>
-            <div className="portfolio__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
-              <h3 className="portfolio__modal-title">To-Do List App</h3>
-              <p className="portfolio__modal-description">
-                Full-Stack app built with Laravel backend and React frontend to manage school administrative tasks.
-              </p>
-            </div>
-          </div>
-        </div>
+       
+<div className="portfolio__content">
+  <div className="portfolio__data">
+    <i className="bx bxs-folder-open portfolio__icon"></i>
+    <h3 className="portfolio__title">His Facade Website</h3>
+    <span className="portfolio__button" onClick={() => toggleTab(3)}>
+      View More <i className="uil uil-arrow-right portfolio__button-icon"></i>
+    </span>
+  </div>
+
+  <div className="portfolio__footer">
+    <a 
+      href="https://hisfacade.fr/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="portfolio__github"
+    >
+      <i className="bx bx-link-external"></i>
+    </a>
+  </div>
+
+  <div className={toggleState === 3 ? "portfolio__modal active-modal" : "portfolio__modal"}>
+    <div className="portfolio__modal-content">
+      <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
+
+      <h3 className="portfolio__modal-title">His Facade Website</h3>
+
+      <p className="portfolio__modal-description">
+        Professional company website developed with WordPress. 
+        I worked on customizing the theme, integrating Elementor for page design, 
+        and configuring plugins to improve performance, SEO, and contact forms. 
+        The website presents the company's services and allows clients to easily contact the business.
+      </p>
+    </div>
+  </div>
+</div>
 
         {/* Project 4 */}
         <div className="portfolio__content">
