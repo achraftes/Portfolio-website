@@ -25,7 +25,7 @@ const Portfolio = () => {
             </span>
           </div>
           <div className="portfolio__footer">
-            <a href="https://github.com/yourusername/ecommerce" target="_blank" rel="noopener noreferrer" className="portfolio__github">
+            <a href="https://github.com/achraftes/Ecommerce-app" target="_blank" rel="noopener noreferrer" className="portfolio__github">
               <i className="bx bxl-github"></i>
             </a>
           </div>
