@@ -117,7 +117,7 @@ const Portfolio = () => {
             </span>
           </div>
           <div className="portfolio__footer">
-            <a href="https://github.com/yourusername/laravel-management" target="_blank" rel="noopener noreferrer" className="portfolio__github">
+            <a href="https://github.com/achraftes/EcomAgentManager-APP" target="_blank" rel="noopener noreferrer" className="portfolio__github">
               <i className="bx bxl-github"></i>
             </a>
           </div>
