@@ -147,14 +147,14 @@ const Portfolio = () => {
             </span>
           </div>
           <div className="portfolio__footer">
-            <a href="https://github.com/yourusername/jwt-node" target="_blank" rel="noopener noreferrer" className="portfolio__github">
+            <a href="https://github.com/achraftes/NodeJS-MongoDB-Order-Management" target="_blank" rel="noopener noreferrer" className="portfolio__github">
               <i className="bx bxl-github"></i>
             </a>
           </div>
           <div className={toggleState === 5 ? "portfolio__modal active-modal" : "portfolio__modal"}>
             <div className="portfolio__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times portfolio__modal-close"></i>
-              <h3 className="portfolio__modal-title">JWT Node.js App</h3>
+              <h3 className="portfolio__modal-title">NodeJS-MongoDB-Order-Management</h3>
               <p className="portfolio__modal-description">
                 Node.js & MongoDB app with JWT authentication, REST APIs and Postman testing.
               </p>
