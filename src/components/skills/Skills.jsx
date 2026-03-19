@@ -1,25 +1,3 @@
-// import React from 'react'
-// import "./skills.css"
-// import Frontend from './Frontend'
-// import Backend from './Backend'
-
-
-// const Skills = () => {
-//     return (
-//        <section className="Skills section" id="skills">
-//          <h2 className="section__title">Skills</h2>
-//          <span className="section__subtitle">My technical level</span>
-
-//          <div className="skills__container container grid">
-//             <Frontend/>
-//             <Backend/>
-//          </div>
-//        </section>
-//     )
-// }
-
-// export default Skills
-
 import React, { useState } from 'react'
 import "./skills.css"
 
@@ -103,7 +81,6 @@ const skillCategories = [
 ]
 
 const levelMap = { Advanced: 3, Intermediate: 2, Basic: 1 }
-const levelLabel = { Advanced: "Avancé", Intermediate: "Intermédiaire", Basic: "Débutant" }
 
 const Skills = () => {
   const [active, setActive] = useState(null)
@@ -133,10 +110,7 @@ const Skills = () => {
             <div className="skills__card-body">
               {cat.skills.map((skill) => (
                 <div key={skill.name} className="skills__item">
-                  <div className="skills__item-top">
-                    <span className="skills__item-name">{skill.name}</span>
-                    <span className="skills__item-level">{levelLabel[skill.level]}</span>
-                  </div>
+                  <span className="skills__item-name">{skill.name}</span>
                   <div className="skills__bar-track">
                     <div
                       className="skills__bar-fill"

@@ -95,29 +95,19 @@
 
 /* ===== SKILL ITEM ===== */
 .skills__item {
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 .skills__item:last-child {
   margin-bottom: 0;
 }
 
-.skills__item-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.4rem;
-}
-
 .skills__item-name {
+  display: block;
   font-size: 0.85rem;
   font-weight: 500;
   color: #1a1a1a;
-}
-
-.skills__item-level {
-  font-size: 0.72rem;
-  color: #888;
+  margin-bottom: 0.4rem;
 }
 
 /* ===== PROGRESS BAR ===== */
