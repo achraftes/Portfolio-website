@@ -5,7 +5,7 @@ const skillCategories = [
   {
     id: "languages",
     icon: "bx bx-code-alt",
-    title: "Langages",
+    title: "languages",
     color: "#6366f1",
     skills: [
       { name: "HTML", level: "Advanced" },
@@ -20,7 +20,7 @@ const skillCategories = [
   {
     id: "frameworks",
     icon: "bx bx-layer",
-    title: "Frameworks & Libs",
+    title: "Frameworks & Libraries",
     color: "#06b6d4",
     skills: [
       { name: "React", level: "Intermediate" },
@@ -35,7 +35,7 @@ const skillCategories = [
   {
     id: "databases",
     icon: "bx bx-data",
-    title: "Bases de données",
+    title: "Databases",
     color: "#10b981",
     skills: [
       { name: "MySQL", level: "Intermediate" },
@@ -46,7 +46,7 @@ const skillCategories = [
   {
     id: "devops",
     icon: "bx bx-server",
-    title: "DevOps & Outils",
+    title: "DevOps & Tools",
     color: "#f59e0b",
     skills: [
       { name: "Docker", level: "Intermediate" },
@@ -59,7 +59,7 @@ const skillCategories = [
   {
     id: "design",
     icon: "bx bx-shape-triangle",
-    title: "Modélisation",
+    title: "Modeling & CMS",
     color: "#ec4899",
     skills: [
       { name: "UML", level: "Intermediate" },
@@ -70,7 +70,7 @@ const skillCategories = [
   {
     id: "methods",
     icon: "bx bx-task",
-    title: "Méthodes & Gestion",
+    title: "Methods & Management",
     color: "#8b5cf6",
     skills: [
       { name: "Agile", level: "Intermediate" },
