@@ -1,20 +1,21 @@
 /* ===== SKILLS SECTION ===== */
 .Skills {
   padding: 4rem 0 6rem;
+  background: var(--body-color);
 }
 
 .skills__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 1.2rem;
   margin-top: 3rem;
 }
 
 /* ===== CARD ===== */
 .skills__card {
-  background: var(--container-color);
+  background: #ffffff;
   border-radius: 1rem;
-  border: 1px solid rgba(128, 128, 128, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
   cursor: pointer;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -22,7 +23,7 @@
 
 .skills__card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
 }
 
 /* ===== CARD HEADER ===== */
@@ -31,45 +32,45 @@
   align-items: center;
   gap: 0.75rem;
   padding: 1.2rem 1.4rem;
-  border-left: 4px solid var(--cat-color);
+  border-left: 3px solid #1a1a1a;
 }
 
 .skills__card-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 0.5rem;
-  background: color-mix(in srgb, var(--cat-color) 15%, transparent);
-  color: var(--cat-color);
-  font-size: 1.2rem;
+  background: #f0f0f0;
+  color: #1a1a1a;
+  font-size: 1.1rem;
   flex-shrink: 0;
 }
 
 .skills__card-title {
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--title-color);
+  color: #1a1a1a;
   flex: 1;
 }
 
 .skills__card-count {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  color: var(--cat-color);
-  background: color-mix(in srgb, var(--cat-color) 12%, transparent);
-  padding: 0.2rem 0.55rem;
+  color: #1a1a1a;
+  background: #f0f0f0;
+  padding: 0.2rem 0.6rem;
   border-radius: 999px;
 }
 
 .skills__card-arrow {
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: #888;
   transition: transform 0.3s ease;
 }
 
-/* ===== CARD BODY (collapsed by default) ===== */
+/* ===== CARD BODY ===== */
 .skills__card-body {
   max-height: 0;
   overflow: hidden;
@@ -88,8 +89,8 @@
 }
 
 .skills__card--open {
-  box-shadow: 0 4px 20px color-mix(in srgb, var(--cat-color) 20%, transparent);
-  border-color: color-mix(in srgb, var(--cat-color) 30%, transparent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.10);
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 /* ===== SKILL ITEM ===== */
@@ -111,19 +112,19 @@
 .skills__item-name {
   font-size: 0.85rem;
   font-weight: 500;
-  color: var(--title-color);
+  color: #1a1a1a;
 }
 
 .skills__item-level {
-  font-size: 0.75rem;
-  color: var(--text-color-light);
+  font-size: 0.72rem;
+  color: #888;
 }
 
 /* ===== PROGRESS BAR ===== */
 .skills__bar-track {
   width: 100%;
-  height: 6px;
-  background: rgba(128, 128, 128, 0.15);
+  height: 5px;
+  background: #f0f0f0;
   border-radius: 999px;
   overflow: hidden;
 }
@@ -131,11 +132,7 @@
 .skills__bar-fill {
   height: 100%;
   width: var(--bar-width);
-  background: linear-gradient(
-    90deg,
-    var(--cat-color),
-    color-mix(in srgb, var(--cat-color) 60%, white)
-  );
+  background: #1a1a1a;
   border-radius: 999px;
   transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
