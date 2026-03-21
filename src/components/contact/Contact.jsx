@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
+import React, { useRef ,  useState} from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 function Contact() {
 
     const form = useRef();
+      const [showNotification, setShowNotification] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,12 +18,30 @@ function Contact() {
       }
     )
      e.target.reset()
+
+         setShowNotification(true);
+
+    
+    form.current.reset();
+
+    
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 4000);
       
   };
     return (
      <section className="contact section" id="contact">
         <h2 className="section__title">Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
+
+            {/* ✅ Notification */}
+      {showNotification && (
+        <div className="contact__notification">
+          <i className="bx bx-check-circle contact__notification-icon"></i>
+          <p>Email envoyé avec succès !</p>
+        </div>
+      )}
 
         <div className="contact__container container grid">
             <div className="contact__content">
@@ -59,7 +78,8 @@ function Contact() {
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> 
+
 
             <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
