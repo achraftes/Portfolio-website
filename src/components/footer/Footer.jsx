@@ -1,7 +1,9 @@
 import React from 'react';
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -11,20 +13,20 @@ const Footer = () => {
         <div className="footer__top">
           <div className="footer__brand">
             <h1 className="footer__title">Chikrabane</h1>
-            <p className="footer__tagline">Full-Stack Developer & Designer</p>
+            <p className="footer__tagline">{t("footer.tagline")}</p>
           </div>
 
           <nav className="footer__nav">
-            <span className="footer__nav-label">Navigation</span>
+            <span className="footer__nav-label">{t("footer.navigation")}</span>
             <ul className="footer__list">
-              <li><a href="#about" className="footer__link">About</a></li>
-              <li><a href="#portfolio" className="footer__link">Projects</a></li>
-              <li><a href="#services" className="footer__link">Services</a></li>
+              <li><a href="#about" className="footer__link">{t("footer.about")}</a></li>
+              <li><a href="#portfolio" className="footer__link">{t("footer.projects")}</a></li>
+              <li><a href="#services" className="footer__link">{t("footer.services")}</a></li>
             </ul>
           </nav>
 
           <div className="footer__contact-block">
-            <span className="footer__nav-label">Connect</span>
+            <span className="footer__nav-label">{t("footer.connect")}</span>
             <div className="footer__social">
               <a href="https://www.instagram.com/achraf_chkr/" className="footer__social-link" target="_blank" rel="noreferrer" aria-label="Instagram">
                 <i className="bx bxl-instagram"></i>
@@ -43,10 +45,10 @@ const Footer = () => {
 
         <div className="footer__bottom">
           <span className="footer__copy">
-            © {currentYear} Achraf Chikrabane. All rights reserved.
+            © {currentYear} Achraf Chikrabane. {t("footer.rights")}
           </span>
           <span className="footer__made">
-            Designed & built with <span className="footer__heart">♥</span> by Achraf
+            {t("footer.designed_by")}
           </span>
         </div>
 

@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
-import Logo from "../../assets/Achraf.png"; // Décommente si tu veux l'image
+import { useTranslation } from "react-i18next"; // 1. Import du hook
+// import Logo from "../../assets/Achraf.png"; // Décommente si tu veux l'image
 
 const Header = () => {
+  const { t, i18n } = useTranslation(); // 2. Récupération de t et i18n
+
   /* ======== Change Background Header ======== */
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +21,12 @@ const Header = () => {
   /* ======== Toggle Menu ======== */
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  /* ======== Changer la langue ======== */
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    showMenu(false); // Ferme le menu mobile après le changement
+  };
 
   return (
     <header className="header">
@@ -38,7 +47,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#home")}
                 className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-estate nav__icon"></i> Home
+                <i className="uil uil-estate nav__icon"></i> {t("nav.home")}
               </a>
             </li>
 
@@ -48,7 +57,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#about")}
                 className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-user nav__icon"></i> About
+                <i className="uil uil-user nav__icon"></i> {t("nav.about")}
               </a>
             </li>
 
@@ -58,7 +67,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#skills")}
                 className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-file-alt nav__icon"></i> {t("nav.skills")}
               </a>
             </li>
 
@@ -68,7 +77,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#services")}
                 className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                <i className="uil uil-briefcase-alt nav__icon"></i> {t("nav.services")}
               </a>
             </li>
 
@@ -78,7 +87,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#portfolio")}
                 className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                <i className="uil uil-scenery nav__icon"></i> {t("nav.portfolio")}
               </a>
             </li>
 
@@ -88,10 +97,34 @@ const Header = () => {
                 onClick={() => setActiveNav("#contact")}
                 className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <i className="uil uil-message nav__icon"></i> {t("nav.contact")}
               </a>
             </li>
           </ul>
+
+          {/* ===== SÉLECTEUR DE LANGUE ===== */}
+          <div className="nav__languages">
+            <button 
+              className={`nav__lang-btn ${i18n.language === 'fr' ? 'active-lang' : ''}`} 
+              onClick={() => changeLanguage('fr')}
+            >
+              FR
+            </button>
+            <span className="nav__lang-separator">|</span>
+            <button 
+              className={`nav__lang-btn ${i18n.language === 'en' ? 'active-lang' : ''}`} 
+              onClick={() => changeLanguage('en')}
+            >
+              EN
+            </button>
+            <span className="nav__lang-separator">|</span>
+            <button 
+              className={`nav__lang-btn ${i18n.language === 'de' ? 'active-lang' : ''}`} 
+              onClick={() => changeLanguage('de')}
+            >
+              DE
+            </button>
+          </div>
 
           <i className="uil uil-times nav__close" onClick={() => showMenu(false)}></i>
         </div>

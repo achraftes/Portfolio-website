@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { useTranslation } from "react-i18next";
 
 const ScrollDown = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="home__scroll">
             <a href="#about" className="home__scroll-button button--flex">
@@ -19,8 +22,6 @@ const ScrollDown = () => {
                     strokeLinejoin: "round",
                     strokeMiterlimit: "1.5",
                 }}
-                 
-                
               >
                 <path
                   className="wheel"
@@ -30,8 +31,6 @@ const ScrollDown = () => {
                     stroke: "#000",
                     strokeWidth: "20px",
                 }}
-                   
-                  
                 ></path>
                 <path
                   id="mouse"
@@ -40,20 +39,14 @@ const ScrollDown = () => {
                     fill: "none",
                     stroke: "#000",
                     strokeWidth: "20px",
-
                   }}
-                    
-                  
                 ></path>
               </svg>
-              <span className="home__scroll-name">Scroll Down</span>
+              <span className="home__scroll-name">{t("home.scroll_down")}</span>
               <i className="uil uil-arrow-down home__scroll-arrow"></i>
-
-
             </a>
         </div>
     )
 }
 
-export default ScrollDown
- 
+export default ScrollDown;

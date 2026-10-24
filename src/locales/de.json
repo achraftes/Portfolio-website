@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "skills": "Fähigkeiten",
+    "services": "Dienstleistungen",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "tagline": "Full-Stack-Entwickler & Designer",
+    "navigation": "Navigation",
+    "about": "Über Mich",
+    "projects": "Projekte",
+    "services": "Dienstleistungen",
+    "connect": "Verbinden",
+    "rights": "Alle Rechte vorbehalten.",
+    "designed_by": "Entworfen & gebaut mit ♥ von Achraf"
+  },
+    "about": {
+    "title": "Über Mich",
+    "subtitle": "Meine Vorstellung",
+    "description": "Full-Stack-Entwickler spezialisiert auf moderne Web- und Mobile-Anwendungen. Fundierte Kenntnisse in React, Laravel und REST-APIs, mit einem starken Fokus auf DevOps-Praktiken (Docker, CI/CD) und Leistungsoptimierung. Leidenschaftlich beim Lösen komplexer Probleme und bei der Bereitstellung zuverlässiger, skalierbarer Lösungen. Autonom und ergebnisorientiert manage ich Projekte vom Konzept bis zur Bereitstellung mit einem kollaborativen Ansatz.",
+    "download_cv": "Lebenslauf herunterladen",
+    "info": {
+      "experience_title": "Erfahrung",
+      "experience_subtitle": "2 Jahre Freelance",
+      "completed_title": "Abgeschlossen",
+      "completed_subtitle": "30 + Projekte",
+      "support_title": "Support",
+      "support_subtitle": "Online 24/7"
+    }
+  },
+    "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Kontaktieren Sie mich",
+    "talk_to_me": "Sprechen Sie mit mir",
+    "write_project": "Schreiben Sie mir Ihr Projekt",
+    "notification": "E-Mail erfolgreich gesendet!",
+    "write_me": "Schreib mir",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Geben Sie Ihren Namen ein",
+      "email": "E-Mail",
+      "email_placeholder": "Geben Sie Ihre E-Mail ein",
+      "project": "Projekt",
+      "project_placeholder": "Schreiben Sie Ihr Projekt",
+      "send": "Nachricht senden"
+    }
+  },
+    "home": {
+    "subtitle": "Full-Stack-Entwickler",
+    "description": "Ich bin ein Full-Stack-Entwickler aus Rabat, sehr leidenschaftlich und engagiert in meiner Arbeit.",
+    "say_hello": "Hallo sagen",
+    "scroll_down": "Nach unten scrollen"
+  },
+    "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Meine neuesten Arbeiten",
+    "view_more": "Mehr erfahren",
+    "project1": {
+      "title": "E-Commerce-Website",
+      "modal_title": "E-Commerce-Website",
+      "description": "Dieses Projekt ist eine Online-Verkaufsplattform mit einer Startseite, einer Kontaktseite, einer Produktseite und einer Produktdetailseite. Entwickelt mit React, HTML und CSS bietet es ein klares und responsives Design."
+    },
+    "project2": {
+      "title": "Wetter-App",
+      "modal_title": "Interaktive Wetter-App",
+      "description": "Benutzer können das Wetter abrufen, indem sie ihre Stadt eingeben. Entwickelt mit React und Axios für API-Aufrufe."
+    },
+    "project3": {
+      "title": "His Facade Website",
+      "modal_title": "His Facade Website",
+      "description": "Professionelle Unternehmenswebsite, entwickelt mit WordPress. Ich habe an der Anpassung des Themes, der Integration von Elementor für das Seitendesign und der Konfiguration von Plugins zur Verbesserung von Leistung, SEO und Kontaktformularen gearbeitet. Die Website präsentiert die Dienstleistungen des Unternehmens und ermöglicht es Kunden, das Unternehmen einfach zu kontaktieren."
+    },
+    "project4": {
+      "title": "EcomAgentManager APP",
+      "modal_title": "EcomAgentManager CRM",
+      "description": "E-Commerce-CRM entwickelt mit Laravel, TailwindCSS und MySQL. Die Plattform weist Leads automatisch Agenten zu und sendet Echtzeit-Benachrichtigungen an Benutzer. Sie umfasst ein fortschrittliches Analyse-Dashboard, das die Website-Leistung der Verkäufer, Conversion-Raten und wichtige Geschäfts-KPIs anzeigt, um schnelle und effektive Entscheidungen zu unterstützen."
+    },
+    "project5": {
+      "title": "JWT Node.js",
+      "modal_title": "NodeJS-MongoDB-Order-Management",
+      "description": "Eine Full-Stack-App mit Node.js und MongoDB für die Produkt- und Bestellverwaltung. Zu den Funktionen gehören JWT-basierte Benutzerauthentifizierung, REST-APIs mit Express.js und robuste, mit Postman getestete Funktionalität. Benutzer können sich registrieren, anmelden und Produkte/Bestellungen sicher verwalten. Ideal für Inventar- oder Produktmanagement-Plattformen."
+    },
+    "project6": {
+      "title": "AutoData Manager",
+      "modal_title": "AutoData Manager",
+      "description": "Ein Python-System mit einer Tkinter-Oberfläche zur Verwaltung von Fahrzeuginformationen, einschließlich Marke, Modell, Baujahr, Kilometerstand und Farbe. Die Daten werden in einer lokalen Datei gespeichert, was eine zentrale Verwaltung ohne externe Datenbank ermöglicht. Die intuitive Oberfläche sorgt für eine schnelle und effiziente Dateneingabe und ist ideal für eine einfache Datenverwaltung und einen einfachen Benutzerzugriff."
+    }
+  },
+    "qualification": {
+   "title": "Qualifikation",
+    "subtitle": "Mein persönlicher Werdegang",
+    "education": "Ausbildung",
+    "experience": "Erfahrung",
+    "edu1_title": "Full-Stack-Webentwicklung",
+    "edu1_subtitle": "Spezialisiertes Institut für Angewandte Technologie eNtic",
+    "edu2_title": "Abitur in Physik",
+    "edu2_subtitle": "Imam Al-Ghazali Gymnasium",
+    "exp1_title": "Full-Stack-Webentwickler (Freelance)",
+    "exp1_subtitle": "Safiiir",
+    "exp2_title": "Mobile-Entwickler",
+    "exp2_subtitle": "Admigha (Praktikum)",
+    "exp3_title": "Web-Entwickler & Integrator",
+    "exp3_subtitle": "EF2C Consulting (Praktikum)",
+    "exp4_title": "Full-Stack-Entwickler",
+    "exp4_subtitle": "Baaziz Technologies (Praktikum)"
+  },
+    "services": {
+    "title": "Dienstleistungen",
+    "subtitle": "Was ich anbiete",
+    "view_more": "Mehr erfahren",
+    "web_dev": {
+      "title": "Web-Entwickler",
+      "description": "Ich baue moderne und responsive Webanwendungen mit modernen Technologien, um hochwertige digitale Lösungen zu liefern.",
+      "list1": "Entwicklung responsiver Benutzeroberflächen.",
+      "list2": "Frontend-Entwicklung mit React und JavaScript.",
+      "list3": "Backend-Entwicklung mit Laravel und APIs."
+    },
+    "ui_ux": {
+      "title": "UI/UX-Designer",
+      "description": "Ich entwerfe moderne, intuitive und benutzerfreundliche Schnittstellen, um die Benutzererfahrung von Websites und Webanwendungen zu verbessern.",
+      "list1": "Interaktive Prototypen und Wireframes.",
+      "list2": "UI-Design und Layouterstellung.",
+      "list3": "Optimierung der Benutzererfahrung."
+    },
+    "web_integrator": {
+      "title": "Web-Integrator",
+      "description": "Ich integriere Websites mit Marketing- und CRM-Systemen unter Verwendung moderner Tools und Automatisierung, um Leads und Kundendaten effizient zu verwalten.",
+      "list1": "WordPress-Website-Integration.",
+      "list2": "Verbindung von Formularen mit CRM-Systemen.",
+      "list3": "Verwendung von Webhooks zur automatischen Übermittlung von Leads.",
+      "list4": "Integration mit Marketing-Tools und Automatisierung."
+    },
+    "mobile_dev": {
+      "title": "Mobile-Entwickler",
+      "description": "Ich entwickle leistungsstarke und moderne mobile Anwendungen mit intuitiven Schnittstellen, die mit Backend-Diensten und REST-APIs verbunden sind.",
+      "list1": "Entwicklung moderner und ergonomischer mobiler Anwendungen.",
+      "list2": "REST-API-Integration mit Backend-Diensten.",
+      "list3": "Funktionsentwicklung, Fehlerbehebung und UX-Verbesserung.",
+      "list4": "Tests, Wartung und Leistungsoptimierung."
+    },
+    "seo": {
+      "title": "SEO-Optimierung",
+      "description": "Ich optimiere Websites, um ihre Sichtbarkeit in Suchmaschinen zu verbessern, qualifizierten Traffic anzuziehen und Conversions zu steigern.",
+      "list1": "On-Page-SEO: Meta-Tags, Titel und strukturierte Daten.",
+      "list2": "Technisches SEO: Leistung, Geschwindigkeit und mobile Responsivität.",
+      "list3": "Keyword-Recherche und Content-Optimierung.",
+      "list4": "SEO-Audits und Verbesserung des Suchmaschinen-Rankings."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "Ich automatisiere Bereitstellungsprozesse, verwalte Cloud-Infrastrukturen und optimiere die Anwendungsleistung für zuverlässige und skalierbare Produktionsumgebungen.",
+      "list1": "Anwendungsbereitstellung und Containerisierung mit Docker.",
+      "list2": "Implementierung von CI/CD-Pipelines für automatisierte Workflows.",
+      "list3": "Cloud-Infrastrukturmanagement und Serverüberwachung.",
+      "list4": "Leistungsoptimierung und Prozessautomatisierung."
+    }
+  },
+    "skills": {
+    "title": "Fähigkeiten",
+    "subtitle": "Mein technisches Niveau",
+    "advanced": "Fortgeschritten",
+    "intermediate": "Mittelstufe",
+    "basic": "Grundkenntnisse",
+    "cat_languages": "Sprachen",
+    "cat_frameworks": "Frameworks & Bibliotheken",
+    "cat_databases": "Datenbanken",
+    "cat_devops": "DevOps & Tools",
+    "cat_design": "Modellierung & CMS",
+    "cat_methods": "Methoden & Management"
+  }
+}

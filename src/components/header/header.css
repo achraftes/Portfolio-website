@@ -71,6 +71,42 @@
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* ===== LANGUAGE SWITCHER (Sélecteur de langue) ===== */
+.nav__languages {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav__lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    font-family: inherit;
+    transition: 0.3s;
+    padding: 0;
+}
+
+.nav__lang-btn:hover {
+    color: var(--title-color-dark);
+}
+
+.nav__lang-btn.active-lang {
+    color: var(--title-color-dark);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.nav__lang-separator {
+    color: var(--text-color-light);
+    font-size: 0.8rem;
+}
+
 /* ===== Responsive ===== */
 @media screen and (max-width: 768px) {
     .header {
@@ -130,6 +166,15 @@
     .nav__close,
     .nav__toggle {
         display: block;
+    }
+
+    /* Sélecteur de langue sur Mobile */
+    .nav__languages {
+        margin-top: 1.5rem;
+        margin-left: 0;
+        justify-content: center;
+        font-size: 1.1rem;
+        gap: 1rem; /* Un peu plus d'espace sur mobile */
     }
 }
 

@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Full-Stack Developer & Designer",
+    "navigation": "Navigation",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "designed_by": "Designed & built with ♥ by Achraf"
+  },
+    "about": {
+    "title": "About Me",
+    "subtitle": "My introduction",
+    "description": "Full-Stack Developer specializing in modern web and mobile applications. Proficient in React, Laravel, and REST APIs, with a strong focus on DevOps practices (Docker, CI/CD) and performance optimization. Passionate about solving complex problems and delivering reliable, scalable solutions. Autonomous and results-oriented, I manage projects from concept to deployment with a collaborative approach.",
+    "download_cv": "Download CV",
+    "info": {
+      "experience_title": "Experience",
+      "experience_subtitle": "2 Years Freelance",
+      "completed_title": "Completed",
+      "completed_subtitle": "30 + Projects",
+      "support_title": "Support",
+      "support_subtitle": "Online 24/7"
+    }
+  },
+    "contact": {
+    "title": "Get in touch",
+    "subtitle": "Contact Me",
+    "talk_to_me": "Talk to me",
+    "write_project": "Write me your project",
+    "notification": "Email sent successfully!",
+    "write_me": "Write me",
+    "email": "Email",
+    "whatsapp": "Whatsapp",
+    "linkedin": "LinkedIn",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Insert your name",
+      "email": "Email",
+      "email_placeholder": "Insert your email",
+      "project": "Project",
+      "project_placeholder": "Write your project",
+      "send": "Send Message"
+    }
+  },
+    "home": {
+    "subtitle": "Full-Stack Developer",
+    "description": "I'm a Full-Stack Developer based in Rabat, very passionate and dedicated to my work.",
+    "say_hello": "Say Hello",
+    "scroll_down": "Scroll Down"
+  },
+    "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Most recent work",
+    "view_more": "View More",
+    "project1": {
+      "title": "E-commerce Site",
+      "modal_title": "E-commerce Site",
+      "description": "This project is an online sales platform including a home page, a contact page, a product page, and a product detail page. Developed with React, HTML, and CSS, it provides a clear and responsive design."
+    },
+    "project2": {
+      "title": "Weather App",
+      "modal_title": "Interactive Weather App",
+      "description": "Users can check the weather by entering their city. Developed with React and Axios for API calls."
+    },
+    "project3": {
+      "title": "His Facade Website",
+      "modal_title": "His Facade Website",
+      "description": "Professional company website developed with WordPress. I worked on customizing the theme, integrating Elementor for page design, and configuring plugins to improve performance, SEO, and contact forms. The website presents the company's services and allows clients to easily contact the business."
+    },
+    "project4": {
+      "title": "EcomAgentManager APP",
+      "modal_title": "EcomAgentManager CRM",
+      "description": "E-commerce CRM developed with Laravel, TailwindCSS and MySQL. The platform automatically assigns leads to agents and sends real-time notifications to users. It includes an advanced analytics dashboard displaying sellers' website performance, conversion rates and key business KPIs to support fast and effective decision making."
+    },
+    "project5": {
+      "title": "JWT Node.js",
+      "modal_title": "NodeJS-MongoDB-Order-Management",
+      "description": "A Full-Stack app using Node.js and MongoDB for product and order management. Features include JWT-based user authentication, REST APIs with Express.js, and robust Postman-tested functionality. Users can register, log in, and manage products/orders securely. Ideal for inventory or product management platforms."
+    },
+    "project6": {
+      "title": "AutoData Manager",
+      "modal_title": "AutoData Manager",
+      "description": "A Python system with a Tkinter interface for managing vehicle information, including make, model, year, mileage, and color. Data is stored in a local file, offering centralized management without an external database. The intuitive interface ensures quick, efficient data entry, making it ideal for simple record-keeping and easy user access."
+    }
+  },
+    "qualification": {
+    "title": "Qualification",
+    "subtitle": "My personal journey",
+    "education": "Education",
+    "experience": "Experience",
+    "edu1_title": "Full Stack Web Development",
+    "edu1_subtitle": "Specialized Institute of Applied Technology eNtic",
+    "edu2_title": "Baccalaureate in Physical Science",
+    "edu2_subtitle": "Imam Al-Ghazali High School",
+    "exp1_title": "Full-Stack Web Developer (Freelance)",
+    "exp1_subtitle": "Safiiir",
+    "exp2_title": "Mobile Developer",
+    "exp2_subtitle": "Admigha (Internship)",
+    "exp3_title": "Web Developer & Integrator",
+    "exp3_subtitle": "EF2C Consulting (Internship)",
+    "exp4_title": "Full-Stack Developer",
+    "exp4_subtitle": "Baaziz Technologies (Internship)"
+  },
+    "services": {
+    "title": "Services",
+    "subtitle": "What I offer",
+    "view_more": "View More",
+    "web_dev": {
+      "title": "Web Developer",
+      "description": "I build modern and responsive web applications using modern technologies to deliver high-quality digital solutions.",
+      "list1": "Development of responsive user interfaces.",
+      "list2": "Frontend development with React and JavaScript.",
+      "list3": "Backend development with Laravel and APIs."
+    },
+    "ui_ux": {
+      "title": "UI/UX Designer",
+      "description": "I design modern, intuitive and user-friendly interfaces to improve the user experience of websites and web applications.",
+      "list1": "Interactive prototypes and wireframes.",
+      "list2": "UI design and layout creation.",
+      "list3": "User experience optimization."
+    },
+    "web_integrator": {
+      "title": "Web Integrator",
+      "description": "I integrate websites with marketing and CRM systems using modern tools and automation to manage leads and customer data efficiently.",
+      "list1": "WordPress website integration.",
+      "list2": "Connecting forms with CRM systems.",
+      "list3": "Using webhooks to send leads automatically.",
+      "list4": "Integration with marketing tools and automation."
+    },
+    "mobile_dev": {
+      "title": "Mobile Developer",
+      "description": "I develop performant and modern mobile applications with intuitive interfaces, connected to backend services and REST APIs.",
+      "list1": "Development of modern and ergonomic mobile applications.",
+      "list2": "REST API integration with backend services.",
+      "list3": "Feature development, bug fixing and UX improvement.",
+      "list4": "Testing, maintenance and performance optimization."
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "I optimize websites to improve their visibility on search engines, attract qualified traffic and increase conversions.",
+      "list1": "On-page SEO: meta tags, titles and structured data.",
+      "list2": "Technical SEO: performance, speed and mobile responsiveness.",
+      "list3": "Keyword research and content optimization.",
+      "list4": "SEO audits and search engine ranking improvement."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "I automate deployment processes, manage cloud infrastructures and optimize application performance for reliable and scalable production environments.",
+      "list1": "Application deployment and containerization with Docker.",
+      "list2": "Implementation of CI/CD pipelines for automated workflows.",
+      "list3": "Cloud infrastructure management and server supervision.",
+      "list4": "Performance optimization and process automation."
+    }
+  },
+    "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "basic": "Basic",
+    "cat_languages": "Languages",
+    "cat_frameworks": "Frameworks & Libraries",
+    "cat_databases": "Databases",
+    "cat_devops": "DevOps & Tools",
+    "cat_design": "Modeling & CMS",
+    "cat_methods": "Methods & Management"
+  }
+}

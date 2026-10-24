@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./qualification.css";
+import { useTranslation } from "react-i18next";
 
 function Qualification() {
+  const { t } = useTranslation();
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -10,8 +12,8 @@ function Qualification() {
 
   return (
     <section className="Skills section" id="skills">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personal journey</span>
+      <h2 className="section__title">{t("qualification.title")}</h2>
+      <span className="section__subtitle">{t("qualification.subtitle")}</span>
 
       <div className="qualification__container container">
         {/* Tabs */}
@@ -25,7 +27,7 @@ function Qualification() {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            {t("qualification.education")}
           </div>
 
           <div
@@ -37,7 +39,7 @@ function Qualification() {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            {t("qualification.experience")}
           </div>
         </div>
 
@@ -53,12 +55,8 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">
-                  Full Stack Web Development
-                </h3>
-                <span className="qualification__subtitle">
-                  Institut specialise de technologie
-                </span>
+                <h3 className="qualification__title">{t("qualification.edu1_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.edu1_subtitle")}</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2022 - 2024
                 </div>
@@ -79,12 +77,8 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">
-                  Baccalaureate in Physical Science
-                </h3>
-                <span className="qualification__subtitle">
-                  Imam al Ghazali High School
-                </span>
+                <h3 className="qualification__title">{t("qualification.edu2_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.edu2_subtitle")}</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2021 - 2022
                 </div>
@@ -100,12 +94,13 @@ function Qualification() {
                 : "qualification__content"
             }
           >
+            {/* Safiiir - Freelance */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Full Stack Développeur</h3>
-                <span className="qualification__subtitle">EF2C Consulting</span>
+                <h3 className="qualification__title">{t("qualification.exp1_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.exp1_subtitle")}</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2025 - 2025
+                  <i className="uil uil-calendar-alt"></i>2025 - 2026
                 </div>
               </div>
 
@@ -115,6 +110,7 @@ function Qualification() {
               </div>
             </div>
 
+            {/* Admigha - Mobile Developer Internship */}
             <div className="qualification__data">
               <div></div>
 
@@ -124,27 +120,45 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">PHP Web Development</h3>
-                <span className="qualification__subtitle">Baaziz Technologie</span>
+                <h3 className="qualification__title">{t("qualification.exp2_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.exp2_subtitle")}</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2024 - 2024
+                  <i className="uil uil-calendar-alt"></i>08/2025 - 11/2025
                 </div>
               </div>
             </div>
 
-            {/* Nouveau bloc Full Stack EF2C */}
+            {/* EF2C Consulting - Web Developer Internship */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Frontend Development</h3>
-                <span className="qualification__subtitle">Baaziz Technologie</span>
+                <h3 className="qualification__title">{t("qualification.exp3_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.exp3_subtitle")}</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2023 - 2023
+                  <i className="uil uil-calendar-alt"></i>02/2025 - 05/2025
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            {/* Baaziz Technologies - Full-Stack Internship */}
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">{t("qualification.exp4_title")}</h3>
+                <span className="qualification__subtitle">{t("qualification.exp4_subtitle")}</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>04/2024 - 05/2024
+                </div>
               </div>
             </div>
           </div>

@@ -1,26 +1,28 @@
-import React from 'react'
-import "./about.css"
-import AboutImg from "../../assets/bild.jpeg"
-import CV from "../../assets/CV_Achraf_Chikrabane.pdf"
-import Info from './Info'
+import React from 'react';
+import "./about.css";
+import AboutImg from "../../assets/bild.jpeg";
+import CV from "../../assets/CV_Achraf_Chikrabane.pdf";
+import Info from './Info';
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
        <section className="about section" id="about">
-        <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            <h2 className="section__title">{t("about.title")}</h2>
+            <span className="section__subtitle">{t("about.subtitle")}</span>
              <div className="about__container container grid">
-                <img src={AboutImg} alt="" className="about__img" />
+                <img src={AboutImg} alt="Achraf Chikrabane" className="about__img" />
                 <div className="about__data">
                     <Info/>
-                    <p className="about__description">Full-Stack Developer with expertise in 
-                        building and maintaining dynamic web applications. Passionate about solving 
-                        complex problems through technology and delivering innovative solutions. 
-                        Adept at managing projects from concept to completion with a collaborative and
-                         results-oriented approach.</p>
+                    <p className="about__description">
+                        {t("about.description")}
+                    </p>
                          
-                     <a download="" href={CV} className="button button--flex">Download CV
-                    <svg
+                     <a download="" href={CV} className="button button--flex">
+                        {t("about.download_cv")}
+                        <svg
                             className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -45,10 +47,7 @@ const About = () => {
                                 fill="var(--container-color)"
                         ></path>
                    </svg>
-                        
-                        
                     </a>
-                    
                 </div>
              </div>
        </section>
