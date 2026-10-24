@@ -1,13 +1,22 @@
 /* ===== Header ===== */
 .header {
-    width: 100%;
+    width: 95%;
+    max-width: 1300px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
     background-color: var(--body-color);
-    padding: 18px 0;
+    padding: 18px 30px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
+}
+
+/* L'ombre devient un peu plus forte au scroll */
+.scroll-header {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
 }
 
 .nav {
@@ -64,15 +73,10 @@
     color: var(--title-color-dark);
 }
 
-/* ===== Scroll Header ===== */
-.scroll-header {
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-}
-
 /* ===== LANGUAGE DROPDOWN ===== */
 .nav__lang-container {
     position: relative;
-    margin-left: 1.5rem; /* Espace entre le menu et le bouton */
+    margin-left: 1.5rem;
 }
 
 .nav__lang-toggle {
@@ -140,8 +144,10 @@
 /* ===== Responsive (Mobile) ===== */
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
+        top: auto;
+        bottom: 15px; /* L'header se place en bas avec un petit espace */
+        width: 95%;
+        padding: 15px 20px;
     }
 
     .nav {
@@ -198,7 +204,7 @@
         display: block;
     }
 
-    /* Sélecteur de langue sur Mobile (Centré en bas) */
+    /* Sélecteur de langue sur Mobile (Centré en bas du menu) */
     .nav__lang-container {
         position: absolute;
         bottom: 1rem;
@@ -208,7 +214,7 @@
         margin-top: 0;
     }
     
-    /* Sur mobile, le menu s'ouvre vers le haut */
+    /* Sur mobile, le menu déroulant s'ouvre vers le haut */
     .nav__lang-dropdown {
         top: auto;
         bottom: 130%; 
