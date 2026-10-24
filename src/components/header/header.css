@@ -22,8 +22,8 @@
 .nav__logo {
     color: var(--title-color);
     font-weight: 700;
-    font-size: 2rem; /* augmente la taille */
-    letter-spacing: 2px; /* optionnel */
+    font-size: 2rem;
+    letter-spacing: 2px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -40,8 +40,6 @@
     display: flex;
     column-gap: 2rem;
 }
-
-.nav__item {}
 
 .nav__link {
     display: flex;
@@ -71,10 +69,10 @@
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== NEW LANGUAGE DROPDOWN ===== */
+/* ===== LANGUAGE DROPDOWN ===== */
 .nav__lang-container {
     position: relative;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem; /* Espace entre le menu et le bouton */
 }
 
 .nav__lang-toggle {
@@ -84,11 +82,12 @@
     background: transparent;
     border: 1px solid var(--text-color-light);
     border-radius: 5px;
-    padding: 0.4rem 0.8rem;
+    padding: 0.3rem 0.6rem;
     cursor: pointer;
     color: var(--title-color);
     font-weight: var(--font-medium);
     font-family: inherit;
+    font-size: var(--small-font-size);
     transition: 0.3s;
 }
 
@@ -101,10 +100,10 @@
     font-size: 1.2rem;
 }
 
-/* Le menu déroulant caché par défaut */
+/* Le menu déroulant */
 .nav__lang-dropdown {
     position: absolute;
-    top: 120%;
+    top: 130%;
     right: 0;
     background-color: var(--container-color);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -135,26 +134,10 @@
 
 .nav__lang-dropdown button.active-lang {
     font-weight: 700;
-    color: var(--first-color); /* ou var(--title-color-dark) selon ton thème */
+    color: var(--first-color);
 }
 
-/* Responsive pour Mobile (Menu du bas) */
-@media screen and (max-width: 768px) {
-    .nav__lang-container {
-        margin-top: 1.5rem;
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .nav__lang-dropdown {
-        top: auto;
-        bottom: 120%; /* S'ouvre vers le haut sur mobile */
-    }
-}
-
-/* ===== Responsive ===== */
+/* ===== Responsive (Mobile) ===== */
 @media screen and (max-width: 768px) {
     .header {
         top: initial;
@@ -215,13 +198,23 @@
         display: block;
     }
 
-    /* Sélecteur de langue sur Mobile */
-    .nav__languages {
-        margin-top: 1.5rem;
+    /* Sélecteur de langue sur Mobile (Centré en bas) */
+    .nav__lang-container {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
         margin-left: 0;
-        justify-content: center;
-        font-size: 1.1rem;
-        gap: 1rem; /* Un peu plus d'espace sur mobile */
+        margin-top: 0;
+    }
+    
+    /* Sur mobile, le menu s'ouvre vers le haut */
+    .nav__lang-dropdown {
+        top: auto;
+        bottom: 130%; 
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
